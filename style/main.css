@@ -9,6 +9,20 @@
     font-weight: bold;
 }
 
+#pesan1{
+    font-size: 1.5em;
+}
+
+#bloklink{
+    background-color: black;
+    padding: 3px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 #main-logo{
     height: 400px;
     width: 400px;
