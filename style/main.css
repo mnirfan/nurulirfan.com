@@ -1,3 +1,16 @@
+.container{
+    left: 0;
+    right: 0;
+}
+
 .belum-selesai{
     text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#main-logo{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
 }
