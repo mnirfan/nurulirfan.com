@@ -1,6 +1,6 @@
 # Site settings
 title: Nurul Irfan Blog
-url: "http://mnirfan.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: http://localhost:4000    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
@@ -9,7 +9,7 @@ description: >
 # Your information
 email: nurulirvan@gmail.com
 author: Nurul Irfan
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: "//www.gravatar.com/avatar/43ba74cbabc484e6303b935115291c22?d=mm&s=135"
 profile: No sentence is good
 #twitter_username: twitter_username
 #github_username:  github_username
@@ -35,3 +35,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+search_omit: true
