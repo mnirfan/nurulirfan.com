@@ -10,4 +10,4 @@ install:
     - gem install jgd
 
 script:
-    - jgd -u git@github.com:mnirfan/mnirfan.github.io.git
+    - jgd -u git@github.com:mnirfan/mnirfan.github.io.git --branch master
