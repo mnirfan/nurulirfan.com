@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nurul Irfan Blog</title>
+    <description>One or more sentences introducing this blog.
+</description>
+    <link>http://nurulirfan.com/en/</link>
+    <atom:link href="http://nurulirfan.com/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 05 Apr 2017 00:29:31 +0700</pubDate>
+    <lastBuildDate>Wed, 05 Apr 2017 00:29:31 +0700</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>My Jekyll-powered site has created</title>
+        <description>&lt;p&gt;Hello.&lt;/p&gt;
+
+&lt;p&gt;This site was built with Jekyll with multi-language support. I hope I can improve my english and writing with this.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jan 1970 08:00:00 +0700</pubDate>
+        <link>http://nurulirfan.com/en/my-jekyll-powered-site-has-created</link>
+        <guid isPermaLink="true">http://nurulirfan.com/en/my-jekyll-powered-site-has-created</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
