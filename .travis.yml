@@ -4,6 +4,11 @@ rvm:
 branches:
   only:
   - source
+
+before_install:
+- git config --global user.email "nuhackerz@gmail.com"
+- git config --global user.name "nurul irfan"
+
 install:
 - bundle install
 - gem install jgd
