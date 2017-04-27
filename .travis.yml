@@ -6,6 +6,10 @@ branches:
   - source
 
 before_install:
+- openssl aes-256-cbc -K $encrypted_8e5693cacb95_key -iv $encrypted_8e5693cacb95_iv
+  -in id_rsa.enc -out id_rsa -d
+- mv id_rsa ~/.ssh
+- chmod 600 ~/.ssh/id_rsa
 - git config --global user.email "nuhackerz@gmail.com"
 - git config --global user.name "nurul irfan"
 
@@ -13,4 +17,4 @@ install:
 - bundle install
 - gem install jgd
 script:
-- jgd -u https://github.com/mnirfan/mnirfan.github.io.git --branch master --branch-from source
+- jgd -u git@github.com:mnirfan/mnirfan.github.io.git --branch master --branch-from source
