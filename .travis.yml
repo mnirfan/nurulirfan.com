@@ -8,7 +8,4 @@ install:
 - bundle install
 - gem install jgd
 script:
-- jgd -u git@github.com:mnirfan/mnirfan.github.io.git --branch master --branch-from source
-before_install:
-- openssl aes-256-cbc -K $encrypted_8e5693cacb95_key -iv $encrypted_8e5693cacb95_iv
-  -in id_rsa.enc -out id_rsa -d
+- jgd -u https://github.com/mnirfan/mnirfan.github.io.git --branch master --branch-from source
