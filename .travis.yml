@@ -1,0 +1,13 @@
+language: ruby
+
+branches:
+    only:
+        - source
+
+install:
+    # Install Jekyll and dependencies
+    - bundle install
+    - gem install jgd
+
+script:
+    - jgd -u git@github.com:mnirfan/mnirfan.github.io.git

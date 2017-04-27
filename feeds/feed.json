@@ -1,103 +1,52 @@
-
+---
+layout: null
+---
+{% assign first = true %}
 [
+{% for collection in site.collections %}
+    {% for item in collection %}
+        {% for item in site.[item.label] %}
+            {% if item.title != null and item.title != empty %}
+            {% unless first %},{% endunless %}{
+                "title": {{item.title | jsonify}},
+                "content": {{item.content | markdownify | strip_html | jsonify}},
+                "link": "{{ site.baseurl }}{{ item.url }}",
+                "date": "{{ item.date }}",
+                "excerpt": "{{ item.snippet }}",
+                "search_omit": "{{ item.search_omit }}"
+            }
+            {% assign first = false %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
 
-
-
-
-    
-    {
-        "title": "Situs ini ditenagai oleh Jekyll",
-        "content": "Halo semua.\n\nSitus ini dibuat dengan menggunakan Jekyll dan mendukung bahasa indonesia dan bahasa inggris.\nSemoga dengan ini kemampuan bahasa inggris dan menulis saya meningkat.\n",
-        "link": "/my-jekyll-powered-site-has-created",
-        "date": "1970-01-01 08:00:00 +0700",
-        "excerpt": "",
-        "search_omit": ""
+{% for post in site.posts %}
+    {% if post.title != null and post.title != empty %}
+    {% unless first %},{% endunless %}{
+        "title": {{post.title | jsonify}},
+        "content": {{post.content | markdownify | strip_html | jsonify}},
+        "link": "{{ site.baseurl }}{{ post.url }}",
+        "date": "{{ post.date }}",
+        "excerpt": "{{ post.snippet }}",
+        "search_omit": "{{ post.search_omit }}"
     }
-    
-    
+    {% assign first = false %}
+    {% endif %}
+{% endfor %}
 
-
-
-    
-    ,{
-        "title": "Page Not Found",
-        "content": "Seems disappeared :(\n",
-        "link": "/404.html",
-        "date": null,
-        "excerpt": null,
-        "search_omit": ""
+{% for page in site.pages %}
+    {% if page.title != null and page.title != empty %}
+    {% unless first %},{% endunless %}{
+        "title": {{page.title | jsonify}},
+        "content": {{page.content | strip_html | jsonify}},
+        "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
+        "date": {{ page.date | jsonify }},
+        "excerpt": {{ page.description | jsonify }},
+        "search_omit": "{{ page.search_omit }}"
     }
-    
-    
-
-    
-    ,{
-        "title": "navs.about",
-        "content": "Selamat datang :)\n\n\n  This website is using laobubu’s theme: EasyBook\n\n\n",
-        "link": "/about/",
-        "date": null,
-        "excerpt": null,
-        "search_omit": ""
-    }
-    
-    
-
-    
-    ,{
-        "title": "navs.category",
-        "content": "\n  Kategori\n\n  \n\n\n\n\n\nJEKYLL\n\n\nJan 01 » Situs ini ditenagai oleh Jekyll\n\n\n\n\n  \n\n\n",
-        "link": "/category/",
-        "date": null,
-        "excerpt": null,
-        "search_omit": ""
-    }
-    
-    
-
-    
-
-    
-
-    
-    ,{
-        "title": "Search",
-        "content": "  Search\n\n  \n  \n    Search term\n    \n    \n  \n\n  \n  \n     result(s) found for &ldquo;&rdquo;.\n  \n  \n\n\n\n  \n  \n    \n  \n\n  \n  \n\n  \n  \n",
-        "link": "/search/",
-        "date": null,
-        "excerpt": null,
-        "search_omit": "false"
-    }
-    
-    
-
-    
-    ,{
-        "title": "global.articles",
-        "content": "\n  RSS Feed\n  {% t page.title %}\n\n  \n    {% for post in paginator.posts %}\n      \n        \n          {{ post.title }}\n        \n\n        {{ post.date | date: \"%b %-d, %Y\" }}\n\n        \n          {{ post.excerpt }}\n          \n            Read More &raquo;\n          \n        \n      \n    {% endfor %}\n  \n\n  \n\n  {% if paginator.previous_page %}\n    PREV\n  {% else %}\n    PREV\n  {% endif %}\n  {{ paginator.page }} of {{ paginator.total_pages }}\n  {% if paginator.next_page %}\n    NEXT\n  {% else %}\n    NEXT\n  {% endif %}\n\n\n\n",
-        "link": "/",
-        "date": null,
-        "excerpt": null,
-        "search_omit": ""
-    }
-    
-    
-
-    
-
+    {% assign first = false %}
+    {% endif %}
+{% endfor %}
 ]
