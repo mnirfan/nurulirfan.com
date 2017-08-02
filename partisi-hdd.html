@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title> « Nurul Irfan Blog</title>
-  <meta name="description" content="Halo semua.">
+  <meta name="description" content="PartisiPartisi adalah pembagian ruang Hard Disk Drive (HDD) secara logis. Pembagian ini bertujuan untuk memudahkan manajemen pemnyimpanan di HDD. Misalnya se...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://nurulirfan.com/my-jekyll-powered-site-has-created">
+  <link rel="canonical" href="http://nurulirfan.com/partisi-hdd">
   <link rel="alternate" type="application/rss+xml" title="Nurul Irfan Blog" href="http://nurulirfan.com/feed.xml" />
 </head>
 
@@ -43,7 +43,7 @@
         
       
       
-        <a class="page-link" href="http://nurulirfan.com/en/my-jekyll-powered-site-has-created"><img class="page-link" src="/images/id.png"></a>
+        <a class="page-link" href="http://nurulirfan.com/en/partisi-hdd"><img class="page-link" src="/images/id.png"></a>
       
     </nav>
   </div>
@@ -56,15 +56,31 @@
           <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Situs ini ditenagai oleh Jekyll</h1>
-    <p class="post-meta">Jan 1, 2017</p>
+    <h1 class="post-title">Partisi pada Hard Disk Drive</h1>
+    <p class="post-meta">Aug 2, 2017</p>
   </header>
 
   <article class="post-content">
-    <p>Halo semua.</p>
+    <h1 id="partisi">Partisi</h1>
+<p>Partisi adalah pembagian ruang <em>Hard Disk Drive</em> (HDD) secara logis. Pembagian ini bertujuan untuk memudahkan manajemen pemnyimpanan di HDD. Misalnya sebuah HDD dibagi menjadi tiga bagian. Bagian pertama untuk meletakkan sistem operasi, bagian kedua untuk menyimpan proyek dan tugas kuliah, dan bagian ketiga untuk menyimpan foto dan video. Dengan membagi-bagi HDD seperti ini kerusakan <em>filesystem</em> juga dapat diminimalisir karena kerusakan ini bersifat lokal dalam sebuah partisi, sehingga apabila sebuah partisi rusak (<em>corrupt</em>) maka partisi lainnya tidak terkena dampaknya.</p>
 
-<p>Situs ini dibuat dengan menggunakan Jekyll dan mendukung bahasa indonesia dan bahasa inggris.
-Semoga dengan ini kemampuan bahasa inggris dan menulis saya meningkat.</p>
+<p>Dalam sistem operasi keluarga microsoft (DOS, Windows) setiap partisi HDD dilambangkan dengan sebuah abjad dan diikuti dengan titik dua. misalkan <code class="highlighter-rouge">C:</code>, <code class="highlighter-rouge">D:</code>, <code class="highlighter-rouge">E:</code>, dan seterusnya. Pada Linux dan sistem Unix-like lain sebuah partisi direpresentasikan dengan sebuah file dalam direktori <code class="highlighter-rouge">/dev/</code>, misalnya <code class="highlighter-rouge">/dev/sda1</code>, <code class="highlighter-rouge">/dev/sda2</code>, dan seterusnya.</p>
+
+<p><img src="'/images/post/fs_mount.png'" alt="" />
+<em>mengaitkan partisi</em></p>
+
+<h2 id="tabel-partisi">Tabel Partisi</h2>
+<p>Tabel partisi mendeskripsikan partisi-partisi yang ada dalam sebuah HDD.</p>
+
+<p>Ada dua jenis tabel partisi yang sering digunakan:</p>
+
+<ol>
+  <li>
+    <p>tabel partisi MBR (Master Boot Record)</p>
+
+    <p>Jenis partisi ini banyak digunakan pada PC generasi lama. HDD yang diatur dengan tipe tabel ini hanya mampu menampung empat partisi primer, namun dapat dibuat lebih banyak partisi lagi dengan menggunakan partisi primer bertipe extended.</p>
+  </li>
+</ol>
 
   </article>
   

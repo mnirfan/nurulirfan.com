@@ -6,9 +6,41 @@
 </description>
     <link>http://nurulirfan.com/</link>
     <atom:link href="http://nurulirfan.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Apr 2017 07:24:39 +0000</pubDate>
-    <lastBuildDate>Fri, 28 Apr 2017 07:24:39 +0000</lastBuildDate>
+    <pubDate>Wed, 02 Aug 2017 10:17:52 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Aug 2017 10:17:52 +0000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Partisi pada Hard Disk Drive</title>
+        <description>&lt;h1 id=&quot;partisi&quot;&gt;Partisi&lt;/h1&gt;
+&lt;p&gt;Partisi adalah pembagian ruang &lt;em&gt;Hard Disk Drive&lt;/em&gt; (HDD) secara logis. Pembagian ini bertujuan untuk memudahkan manajemen pemnyimpanan di HDD. Misalnya sebuah HDD dibagi menjadi tiga bagian. Bagian pertama untuk meletakkan sistem operasi, bagian kedua untuk menyimpan proyek dan tugas kuliah, dan bagian ketiga untuk menyimpan foto dan video. Dengan membagi-bagi HDD seperti ini kerusakan &lt;em&gt;filesystem&lt;/em&gt; juga dapat diminimalisir karena kerusakan ini bersifat lokal dalam sebuah partisi, sehingga apabila sebuah partisi rusak (&lt;em&gt;corrupt&lt;/em&gt;) maka partisi lainnya tidak terkena dampaknya.&lt;/p&gt;
+
+&lt;p&gt;Dalam sistem operasi keluarga microsoft (DOS, Windows) setiap partisi HDD dilambangkan dengan sebuah abjad dan diikuti dengan titik dua. misalkan &lt;code class=&quot;highlighter-rouge&quot;&gt;C:&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;D:&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;E:&lt;/code&gt;, dan seterusnya. Pada Linux dan sistem Unix-like lain sebuah partisi direpresentasikan dengan sebuah file dalam direktori &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/&lt;/code&gt;, misalnya &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda1&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda2&lt;/code&gt;, dan seterusnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;'/images/post/fs_mount.png'&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;mengaitkan partisi&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tabel-partisi&quot;&gt;Tabel Partisi&lt;/h2&gt;
+&lt;p&gt;Tabel partisi mendeskripsikan partisi-partisi yang ada dalam sebuah HDD.&lt;/p&gt;
+
+&lt;p&gt;Ada dua jenis tabel partisi yang sering digunakan:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;tabel partisi MBR (Master Boot Record)&lt;/p&gt;
+
+    &lt;p&gt;Jenis partisi ini banyak digunakan pada PC generasi lama. HDD yang diatur dengan tipe tabel ini hanya mampu menampung empat partisi primer, namun dapat dibuat lebih banyak partisi lagi dengan menggunakan partisi primer bertipe extended.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 02 Aug 2017 00:18:00 +0000</pubDate>
+        <link>http://nurulirfan.com/partisi-hdd</link>
+        <guid isPermaLink="true">http://nurulirfan.com/partisi-hdd</guid>
+        
+        
+        <category>pengetahuan</category>
+        
+      </item>
     
       <item>
         <title>Situs ini ditenagai oleh Jekyll</title>
