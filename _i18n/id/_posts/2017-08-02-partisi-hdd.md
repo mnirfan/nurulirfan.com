@@ -11,7 +11,7 @@ Partisi adalah pembagian ruang *Hard Disk Drive* (HDD) secara logis. Pembagian i
 
 Dalam sistem operasi keluarga microsoft (DOS, Windows) setiap partisi HDD dilambangkan dengan sebuah abjad dan diikuti dengan titik dua. misalkan `C:`, `D:`, `E:`, dan seterusnya. Pada Linux dan sistem Unix-like lain sebuah partisi direpresentasikan dengan sebuah file dalam direktori `/dev/`, misalnya `/dev/sda1`, `/dev/sda2`, dan seterusnya.
 
-![]('http://nurulirfan.com/images/post/fs_mount.png')
+![mount]({{site.url}}/images/post/fs_mount.png)
 *mengaitkan partisi*
 
 ## Tabel Partisi
