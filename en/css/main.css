@@ -66,6 +66,12 @@ table {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
+.externalLink {
+  background-image: url("/images/external_link.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding: 0 13px 0 0; }
+
 .wrapper {
   margin: 0 auto;
   max-width: 1100px; }
@@ -228,7 +234,9 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 10px;
       padding: 10px; } }
 .post .post-content {
-  color: #333; }
+  color: #333;
+  margin-left: 20px;
+  margin-right: 20px; }
   .post .post-content h1, .post .post-content h2, .post .post-content h3, .post .post-content h4, .post .post-content h5, .post .post-content h6 {
     color: #000; }
   .post .post-content h1, .post .post-content h2 {
@@ -241,6 +249,14 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 600px) {
       .post .post-content pre {
         margin: 0 -10px; } }
+  .post .post-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .post .post-content img + em {
+    display: block;
+    text-align: center;
+    margin-top: 10px; }
   .post .post-content .middle-image {
     display: block;
     margin-left: auto;
@@ -298,7 +314,9 @@ h1, h2, h3, h4, h5, h6 {
       border-color: #ccc;
       background-color: #ccc; }
     .home .post-list .post-excerpt a {
-      color: #069; }
+      color: #0645ad; }
+      .home .post-list .post-excerpt a:hover {
+        text-decoration: underline; }
     .home .post-list .post-excerpt img {
       display: block;
       margin: 1em auto;
@@ -307,6 +325,8 @@ h1, h2, h3, h4, h5, h6 {
       transition: opacity .3s; }
       .home .post-list .post-excerpt img:hover {
         opacity: 1; }
+    .home .post-list .post-excerpt p {
+      line-height: 1.6em; }
   @media screen and (max-width: 600px) {
     .home .post-list {
       padding: 10px; } }
