@@ -34,10 +34,10 @@
 
     
     ,{
-        "title": "Situs ini ditenagai oleh Jekyll",
-        "content": "Halo semua.\n\nSitus ini dibuat dengan menggunakan Jekyll dan mendukung bahasa indonesia dan bahasa inggris.\nSemoga dengan ini kemampuan bahasa inggris dan menulis saya meningkat.\n",
-        "link": "/my-jekyll-powered-site-has-created",
-        "date": "2017-01-01 08:00:00 +0000",
+        "title": "3 Bagian Tema Di Linux Yang Perlu Diketahui",
+        "content": "Tema atau Theme, kata ini sudah tak asing tentunya di telinga kita. Sudah banyak sekali di internet yang menyediakan tema untuk Linux, misalnya GNOME-look, KDE-look, Noobslab dan Webupd8. Disana ada banyak sekali tema-tema yang tersedia.\n\n\nTampilan gnome-look.org\n\nMengapa KDE dan GNOME memiliki tema yang berbeda? apa yang membedakan keduanya? Sebelumnya mari kita lihat sekilas gambar berikut\n\n\n\nPada dasarnya tema di Linux dibagi menjadi 3 bagian:\n\nWindow Manager\nWindow Manager atau biasa disingkat WM adalah komponen yang bertugas mengatur tata letak suatu window, misalnya koordinat di layar, urutan tumpukan window ketika terbuka lebih dari satu, resize ukuran window, dan drag posisi window. Yang termasuk dalam WM pada gambar diatas meliputi title bar beserta seperangkat tombol close, maximize, dan minimize, serta border tipis yang ada pinggiran window.\n\nDi Linux ada beberapa WM yang sering dipakai seperti xfwm, metacity, unity, KWin, openbox, dan mutter (GTK 3). xfwm biasa digunakan oleh Desktop Environment XFCE, metacity digunakan oleh GNOME 2, KWin digunakan oleh KDE, unity digunakan oleh Ubuntu unity. itulah mengapa biasanya ada nama-nama WM ini di tema yang di download.\n\nWidget\nWidget adalah apa saja yang ada di dalam area title bar dan window border. misalnya tombol back, menu bar, teks-teks, dan bahkan background dibalik icon-icon yang ada di gambar. Seperti WM, ada macam-macam juga pembentuk widget ini, ada GTK 2, GTK 3, dan Qt. Khusus GTK 3, pembuatan tema menggunakan CSS. Fantastis. GTK biasanya digunakan oleh software-software buatan GNOME, sedangkan Qt biasanya digunakan oleh software-software buatan KDE\n\nIcon\nIcon juga merupakan aspek yang juga sangat penting di penemaan. Seperti misalnya tombol Home, Back, partisi harddisk, icon-icon di taskbar, semuanya diatur oleh tema icon. Namun ada beberapa aplikasi yang memaksa memakai suatu icon karena biasanya tidak tersedia di tema icon yang sedang digunakan.\n\n\n\nHal ini juga yang membuat kami (Tim Software Riset TeaLinuxOS)  membagi tema dalam software “Theme Switcher Tray” menjadi tiga juga.\n\n\nTampilan pengaturan untuk Theme Switcher Tray\n\nTips: Jika Tema yang didownload tidak bekerja dengan salah salah satu dari tiga komponen diatas, cek apakah ada di dalam folder /usr/share/themes/nama_tema untuk tema WM dan Widget, dan di /usr/share/icons/nama_icon untuk tema icon.\n\nBeberapa sumber:\n\n\n  \n    Wikipedia. Linux. diakses 3 Maret 2016. https://en.wikipedia.org/wiki/Linux\n  \n  \n    Wikipedia. Qt. diakses 3 Maret 2016. https://en.wikipedia.org/wiki/Qt_(software)\n  \n\n\n\n\nSekian, apabila ada beberapa informasi yang kurang benar dalam artikel ini, saya mohon maaf dan saya sangat menerima kritikan dan saran.\n\n(Tulisan ini dipindah dari blog lama)\n",
+        "link": "/tiga-bagian-tema-di-linux",
+        "date": "2016-03-03 11:22:00 +0000",
         "excerpt": "",
         "search_omit": ""
     }
@@ -73,7 +73,7 @@
     
     ,{
         "title": "navs.category",
-        "content": "\n  Kategori\n\n  \n\n\n\n\n\nJEKYLL\n\n\nJan 01 » Situs ini ditenagai oleh Jekyll\n\n\n\n\nPENGETAHUAN\n\n\nAug 02 » Partisi pada Hard Disk Drive\n\n\n\n\n  \n\n\n",
+        "content": "\n  Kategori\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nICON\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nLINUX\n\n\n\n\n\n  \n\n\n",
         "link": "/category/",
         "date": null,
         "excerpt": null,

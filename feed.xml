@@ -6,8 +6,8 @@
 </description>
     <link>http://nurulirfan.com/</link>
     <atom:link href="http://nurulirfan.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Nov 2017 03:35:57 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Nov 2017 03:35:57 +0000</lastBuildDate>
+    <pubDate>Mon, 11 Dec 2017 15:15:16 +0000</pubDate>
+    <lastBuildDate>Mon, 11 Dec 2017 15:15:16 +0000</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -48,18 +48,64 @@
       </item>
     
       <item>
-        <title>Situs ini ditenagai oleh Jekyll</title>
-        <description>&lt;p&gt;Halo semua.&lt;/p&gt;
+        <title>3 Bagian Tema Di Linux Yang Perlu Diketahui</title>
+        <description>&lt;p&gt;Tema atau Theme, kata ini sudah tak asing tentunya di telinga kita. Sudah banyak sekali di internet yang menyediakan tema untuk Linux, misalnya &lt;a href=&quot;http://gnome-look.org/&quot;&gt;GNOME-look&lt;/a&gt;, &lt;a href=&quot;http://kde-look.org/&quot;&gt;KDE-look&lt;/a&gt;, &lt;a href=&quot;http://noobslab.com/&quot;&gt;Noobslab&lt;/a&gt; dan &lt;a href=&quot;http://webupd8.org/&quot;&gt;Webupd8&lt;/a&gt;. Disana ada banyak sekali tema-tema yang tersedia.&lt;/p&gt;
 
-&lt;p&gt;Situs ini dibuat dengan menggunakan Jekyll dan mendukung bahasa indonesia dan bahasa inggris.
-Semoga dengan ini kemampuan bahasa inggris dan menulis saya meningkat.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com/images/post/tiga-bagian-tema/gnome-look.png&quot; alt=&quot;mount&quot; /&gt;
+&lt;em&gt;Tampilan gnome-look.org&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Mengapa KDE dan GNOME memiliki tema yang berbeda? apa yang membedakan keduanya? Sebelumnya mari kita lihat sekilas gambar berikut&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com/images/post/tiga-bagian-tema/pembagian-tema.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pada dasarnya tema di Linux dibagi menjadi 3 bagian:&lt;/p&gt;
+
+&lt;h1 id=&quot;window-manager&quot;&gt;Window Manager&lt;/h1&gt;
+&lt;p&gt;Window Manager atau biasa disingkat WM adalah komponen yang bertugas mengatur tata letak suatu window, misalnya koordinat di layar, urutan tumpukan window ketika terbuka lebih dari satu, resize ukuran window, dan drag posisi window. Yang termasuk dalam WM pada gambar diatas meliputi title bar beserta seperangkat tombol close, maximize, dan minimize, serta border tipis yang ada pinggiran window.&lt;/p&gt;
+
+&lt;p&gt;Di Linux ada beberapa WM yang sering dipakai seperti xfwm, metacity, unity, KWin, openbox, dan mutter (GTK 3). xfwm biasa digunakan oleh Desktop Environment XFCE, metacity digunakan oleh GNOME 2, KWin digunakan oleh KDE, unity digunakan oleh Ubuntu unity. itulah mengapa biasanya ada nama-nama WM ini di tema yang di download.&lt;/p&gt;
+
+&lt;h1 id=&quot;widget&quot;&gt;Widget&lt;/h1&gt;
+&lt;p&gt;Widget adalah apa saja yang ada di dalam area title bar dan window border. misalnya tombol back, menu bar, teks-teks, dan bahkan background dibalik icon-icon yang ada di gambar. Seperti WM, ada macam-macam juga pembentuk widget ini, ada GTK 2, GTK 3, dan Qt. Khusus GTK 3, pembuatan tema menggunakan CSS. Fantastis. GTK biasanya digunakan oleh software-software buatan GNOME, sedangkan Qt biasanya digunakan oleh software-software buatan KDE&lt;/p&gt;
+
+&lt;h1 id=&quot;icon&quot;&gt;Icon&lt;/h1&gt;
+&lt;p&gt;Icon juga merupakan aspek yang juga sangat penting di penemaan. Seperti misalnya tombol Home, Back, partisi harddisk, icon-icon di taskbar, semuanya diatur oleh tema icon. Namun ada beberapa aplikasi yang memaksa memakai suatu icon karena biasanya tidak tersedia di tema icon yang sedang digunakan.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Hal ini juga yang membuat kami (Tim Software Riset TeaLinuxOS)  membagi tema dalam software “Theme Switcher Tray” menjadi tiga juga.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com/images/post/tiga-bagian-tema/theme-tray.png&quot; alt=&quot;mount&quot; /&gt;
+&lt;em&gt;Tampilan pengaturan untuk Theme Switcher Tray&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: Jika Tema yang didownload tidak bekerja dengan salah salah satu dari tiga komponen diatas, cek apakah ada di dalam folder &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/themes/nama_tema&lt;/code&gt; untuk tema WM dan Widget, dan di &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/nama_icon&lt;/code&gt; untuk tema icon.&lt;/p&gt;
+
+&lt;p&gt;Beberapa sumber:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wikipedia. Linux. diakses 3 Maret 2016. &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux&quot;&gt;https://en.wikipedia.org/wiki/Linux&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wikipedia. Qt. diakses 3 Maret 2016. &lt;a href=&quot;https://en.wikipedia.org/wiki/Qt_(software)&quot;&gt;https://en.wikipedia.org/wiki/Qt_(software)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Sekian, apabila ada beberapa informasi yang kurang benar dalam artikel ini, saya mohon maaf dan saya sangat menerima kritikan dan saran.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Tulisan ini dipindah dari &lt;a href=&quot;http://blog.nurulirfan.com&quot;&gt;blog lama&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 01 Jan 2017 08:00:00 +0000</pubDate>
-        <link>http://nurulirfan.com/my-jekyll-powered-site-has-created</link>
-        <guid isPermaLink="true">http://nurulirfan.com/my-jekyll-powered-site-has-created</guid>
+        <pubDate>Thu, 03 Mar 2016 11:22:00 +0000</pubDate>
+        <link>http://nurulirfan.com/tiga-bagian-tema-di-linux</link>
+        <guid isPermaLink="true">http://nurulirfan.com/tiga-bagian-tema-di-linux</guid>
         
         
-        <category>jekyll</category>
+        <category>Linux,</category>
+        
+        <category>Theme,</category>
+        
+        <category>Icon</category>
         
       </item>
     
