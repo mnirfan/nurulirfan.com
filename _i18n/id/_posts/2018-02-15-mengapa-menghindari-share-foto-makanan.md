@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Menghindari Sharing Foto Makanan di Medsos. Mengapa?"
-date:   2017-05-18 21:40
+date:   2018-02-19 08:45
 categories: cerita, pemikiran pribadi
 permalink: /saya-menghindari-share-foto-makanan
 ---
