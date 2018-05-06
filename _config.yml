@@ -2,15 +2,16 @@
 title: Nurul Irfan Blog
 url: http://nurulirfan.com    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+permalink: /:year/:month/:day/:title:output_ext
 #timezone: Asia/Chongqing
 description: Personal blog
 
 # Your information
-email: nurulirvan@gmail.com
+email: 
 author: Nurul Irfan
 avatar: "//www.gravatar.com/avatar/43ba74cbabc484e6303b935115291c22?d=mm&s=135"
 profile: FOSS Crafter
-# twitter_username: twitter_username
+twitter_username: mnirfan25
 github_username:  mnirfan
 
 # Comment Service (Disqus or 多说)
@@ -18,7 +19,6 @@ github_username:  mnirfan
 disqus_shortname: nurulirfan-github-page   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
 gems:
  - jekyll-paginate
  - jekyll-gist

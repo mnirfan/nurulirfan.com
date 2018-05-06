@@ -2,8 +2,10 @@
 layout: post
 title:  "3 Bagian Tema Di Linux Yang Perlu Diketahui"
 date:   2016-03-03 11:22
-categories: Linux, Theme, Icon
-permalink: /tiga-bagian-tema-di-linux
+categories: 
+  - Linux
+  - Theme
+  - Icon
 ---
 
 Tema atau Theme, kata ini sudah tak asing tentunya di telinga kita. Sudah banyak sekali di internet yang menyediakan tema untuk Linux, misalnya [GNOME-look](http://gnome-look.org/), [KDE-look](http://kde-look.org/), [Noobslab](http://noobslab.com/) dan [Webupd8](http://webupd8.org/). Disana ada banyak sekali tema-tema yang tersedia.

@@ -2,8 +2,10 @@
 layout: post
 title:  "Menghindari Sharing Foto Makanan di Medsos. Mengapa?"
 date:   2018-02-15 08:45
-categories: cerita, pemikiran pribadi
-permalink: /saya-menghindari-share-foto-makanan
+categories: 
+  - cerita
+  - pemikiran pribadi
+permalink: /:year/:month/:day/saya-menghindari-share-foto-makanan:output_ext
 ---
 
 Media sosial sudah menjadi bagian dari kehidupan di peradaban modern ini. Barang teknologi satu ini sangat digandrungi kawula muda, terutama untuk mengekspresikan dirinya dan mendapatkan informasi terkini dari jaringan sosialnya, misalnya mantan. Eh.

@@ -3,12 +3,12 @@
 ---
 @charset "utf-8";
 
-$base-font-family: "Open Sans", "Helvetica Neue", "DejaVu Sans", Arial, "PingFang SC", "Noto Sans CJK SC", "Hiragino Sans GB", "微软雅黑",  Helvetica, sans-serif;
+$base-font-family: 'Roboto', sans-serif;;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$code-font-family:   Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "文泉驿等宽微米黑", "Courier New", Courier, SimSun, monospace;
+$code-font-family:   "Roboto Mono", Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "文泉驿等宽微米黑", "Courier New", Courier, SimSun, monospace;
 $code-font-size:     15px;
 
 // Width of the content area
@@ -20,9 +20,9 @@ $on-laptop:        800px;
 $color-link: #0645ad;
 $color-link-hover: #0645ad;
 
-$header-bg: #607D8B;
-$header-bg-hover: #78909C;
-$header-link: #CFD8DC;
+$header-bg: rgb(83, 83, 83);
+$header-bg-hover: rgb(107, 107, 107);
+$header-link: #FFF;
 $header-fg: #FFF;
 
 @mixin media-query($device) {
