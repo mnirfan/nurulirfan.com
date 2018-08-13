@@ -3,6 +3,7 @@ global:
   articles: Artikel
   toc: Daftar Isi
   newest: Postingan Terbaru
+  read: Baca lebih lanjut
 
 navs:
   home: "Beranda"

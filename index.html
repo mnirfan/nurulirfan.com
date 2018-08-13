@@ -20,7 +20,7 @@ title: global.articles
         <div class="post-excerpt">
           {{ post.excerpt }}
           <p>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% t global.read %} &raquo;</a>
           </p>
         </div>
       </li>

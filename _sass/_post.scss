@@ -9,7 +9,7 @@
             margin-bottom: 10px;
             text-align: center;
         	@include media-query($on-palm) {
-        		font-size: 34px;
+        		font-size: 20px;
             }
         }
         .meta {
@@ -46,6 +46,9 @@
         h1, h2 {
         	margin-bottom: 10px;
             margin-top: 30px;
+            @include media-query($on-palm) {
+        		font-size: 18px;
+            }
         }
 
         h1, h2, h3 {

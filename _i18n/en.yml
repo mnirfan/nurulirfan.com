@@ -3,6 +3,7 @@ global:
   articles: Articles
   toc: TOC
   newest: Newest Posts
+  read: Read More
 
 navs:
   home: "Home"
