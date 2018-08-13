@@ -89,7 +89,7 @@
     
     ,{
         "title": "global.articles",
-        "content": "\n  \n\n  \n    {% for post in paginator.posts %}\n      \n        \n          {{ post.title }}\n        \n\n        {{ post.date | date: \"%b %-d, %Y\" }}\n\n        \n          {{ post.excerpt }}\n          \n            Read More &raquo;\n          \n        \n      \n    {% endfor %}\n  \n\n  \n\n  {% if paginator.previous_page %}\n    PREV\n  {% else %}\n    PREV\n  {% endif %}\n  {{ paginator.page }} of {{ paginator.total_pages }}\n  {% if paginator.next_page %}\n    NEXT\n  {% else %}\n    NEXT\n  {% endif %}\n\n\n\n",
+        "content": "\n  \n\n  \n    {% for post in paginator.posts %}\n      \n        \n          {{ post.title }}\n        \n\n        {{ post.date | date: \"%b %-d, %Y\" }}\n\n        \n          {{ post.excerpt }}\n          \n            {% t global.read %} &raquo;\n          \n        \n      \n    {% endfor %}\n  \n\n  \n\n  {% if paginator.previous_page %}\n    PREV\n  {% else %}\n    PREV\n  {% endif %}\n  {{ paginator.page }} of {{ paginator.total_pages }}\n  {% if paginator.next_page %}\n    NEXT\n  {% else %}\n    NEXT\n  {% endif %}\n\n\n\n",
         "link": "/en/",
         "date": null,
         "excerpt": null,
