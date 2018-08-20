@@ -3,10 +3,10 @@
   <channel>
     <title>Nurul Irfan Blog</title>
     <description>Personal blog</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Aug 2018 05:30:21 +0700</pubDate>
-    <lastBuildDate>Tue, 21 Aug 2018 05:30:21 +0700</lastBuildDate>
+    <link>http://nurulirfan.com/</link>
+    <atom:link href="http://nurulirfan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 21 Aug 2018 06:35:46 +0700</pubDate>
+    <lastBuildDate>Tue, 21 Aug 2018 06:35:46 +0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -30,43 +30,11 @@
 &lt;p&gt;(punya pemikiran berbeda? Jangan sungkan menyampaikannya di kolom komentar)&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Aug 2018 22:41:00 +0700</pubDate>
-        <link>http://localhost:4000/2018/08/20/hijrah-migrasi-moveon.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/20/hijrah-migrasi-moveon.html</guid>
+        <link>http://nurulirfan.com/2018/08/20/hijrah-migrasi-moveon.html</link>
+        <guid isPermaLink="true">http://nurulirfan.com/2018/08/20/hijrah-migrasi-moveon.html</guid>
         
         
         <category>pemikiran pribadi</category>
-        
-      </item>
-    
-      <item>
-        <title>Ceritaku Tentang Konferensi LibreOffice Indonesia 2018</title>
-        <description>&lt;p&gt;Tidak saya sangka akhirnya saya mengunjungi Kota Surabaya lagi setelah sekian belas tahun. Seingat saya terakhir kali mengunjungi kota ini adalah ketika saya masih duduk di bangku TK atau malah sebelumnya. Ingatan saya agak buram mengenai ini. Dikala itu saya ikut kakek dan nenek saya dalam perjalanan bertamasya. Saya sangat bersyukur dapat mengunjungi Kota Surabaya kembali, apalagi dengan alasan untuk menghadiri acara yang sangat keren menurut saya, yaitu &lt;strong&gt;LibreOffice Conference Indonesia 2018&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;loci-2018&quot;&gt;LOCI 2018&lt;/h1&gt;
-&lt;p&gt;LibreOffice Conference Indonesia 2018 atau bisa disingkat LOCI 2018 adalah ajang berkumpul penggiat dan pengguna LibreOffice yang mengutamakan kontribusi nyata pada kemajuan kemerdekaan perangkat lunak. Acara ini dilaksanakan di Politeknik Elektronika Negeri Surabaya (PENS) pada tanggal 23-25 Maret 2018. Acara ini terdiri dari acara lokakarya dan konferensi.&lt;/p&gt;
-
-&lt;p&gt;Saya berangkat dari Semarang bersama teman-teman saya dari DOSCOM – Mas Mahdan, Billy, dan Ilham – dan teman satu padepokan (baca: ponpes) sekaligus satu SMA saya, Zaim si fisikawan yang selalu saya “seret” ke FOSS. Seperti perjalanan-perjalanan ke luar kota yang saya jalani sebelumnya, kami mendapat penginapan yang *ehem* gratis. Terima kasih kepada Paklik dan Buliknya Mas Mahdan. Semoga Allah membalas segala kebaikannya dengan berlipat ganda.&lt;/p&gt;
-
-&lt;h2 id=&quot;hari-ke-0&quot;&gt;Hari ke-0&lt;/h2&gt;
-&lt;p&gt;Hitungan hari saya mulai dari 0 karena selain saya adalah seorang programmer yang biasa menghitung index array dari 0, juga karena tanggal 23 Maret atau hari pertama dari serangkaian acara LOCI 2018 adalah pelaksanaan lokakarya (workshop). Konferensi baru dimulai besoknya atau tanggal 24 Maret.&lt;/p&gt;
-
-&lt;p&gt;Lokakarya ini berisi tentang cara &lt;em&gt;build&lt;/em&gt; LibreOffice dari kode sumber dan penerjemahan LibreOffice ke dalam bahasa Indonesia. Acara ini di dibawakan oleh Pak Andika Triwidada, salah satu penerjemah LibreOffice dalam bahasa Indonesia. Beliau membimbing kami dalam mem-_build_ dan menerjemahkan LibreOffice sehingga kami tahu apa yang harus kami lakukan untuk berkontribusi dalam pengembangan LibreOffice, khususnya dalam penerjemahan.&lt;/p&gt;
-
-&lt;p&gt;Walaupun dalam lokakarya ini saya terdaftar sebagai peserta, Alhamdulillah saya tercantum sebagai pembicara dalam konferensi yang akan diadakan hari berikutnya. Oleh karena itu saya mendapat undangan untuk makan malam *ehem* gratis bersama pembicara-pembicara lain. Dalam acara makan malam bersama ini saya bertemu beberapa tokoh-tokoh FOSS di indonesia yang sudah saya kenal sebelumnya seperti Pak Haris (katanya &lt;em&gt;immortal&lt;/em&gt;), Pak Sokibi yang ditunggu-tunggu buku GIMPnya, Mas Kukuh, Mbak Siska, Mas Estu, Pak Iwan, dan masih banyak lagi. Saya juga menjadi kenal dengan beberapa orang baru seperti Pak Samsul Maarif yang sudah memboncengkan saya menuju tempat makan malam (Terima kasih, Pak), Mas Darian, dan Mas Umam. Sebenarnya masih banyak lagi, namun daftar nama akan menjadi panjang bila saya sebutkan semuanya.&lt;/p&gt;
-
-&lt;h2 id=&quot;hari-ke-1&quot;&gt;Hari ke-1&lt;/h2&gt;
-&lt;p&gt;Pada hari pertama konferensi ini adalah hari yang sangat menyenangkan bagi saya. Bagaimana tidak, saya akan mengisi salah satu kelas paralel di konferensi ini. Walaupun materi yang saya bawakan tidak sehebat pemateri yang lain, saya tetap merasa senang dapat berbagi ilmu dan pengalaman kepada teman-teman yang hadir. Materi yang saya bawakan adalah “&lt;strong&gt;Menulis Template Laporan Skripsi (dan Apapun) dengan LibreOffice Writer&lt;/strong&gt;”. Berkas presentasi saya dapat diunduh &lt;a href=&quot;&quot;&gt;di sini&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Setelah selesai mengisi kelas, ada mbak-mbak panitia yang menghampiri saya dan memberikan totebag berisi souvenir. Setelah saya buka isinya adalah sebuah boneka lucu LibreOffice, jajanan, dan Buku “Menulis Buku dengan LibreOffice” karya Pak Sokibi. Tentu saja saya meminta tanda tangan kepada Pak Sokibi yang berada di booth LibreOffice. Mantap! Buku yang saya terima menjadi semakin “kece”.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Mar 2018 10:36:00 +0700</pubDate>
-        <link>http://localhost:4000/2018/03/30/ceritaku-tentang-loci-2018.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/03/30/ceritaku-tentang-loci-2018.html</guid>
-        
-        
-        <category>cerita</category>
-        
-        <category>FOSS</category>
         
       </item>
     
@@ -88,8 +56,8 @@ muda yang tak kenal media sosial dengan konten foto dan video ini? Pergi jalan-j
 &lt;p&gt;Itu lah sedikit tulisan hasil pemikiran pribadi saya. Mungkin pembaca memiliki pemikiran lain? Silakan berkomentar.&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Feb 2018 08:45:00 +0700</pubDate>
-        <link>http://localhost:4000/2018/02/15/saya-menghindari-share-foto-makanan.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/15/saya-menghindari-share-foto-makanan.html</guid>
+        <link>http://nurulirfan.com/2018/02/15/saya-menghindari-share-foto-makanan.html</link>
+        <guid isPermaLink="true">http://nurulirfan.com/2018/02/15/saya-menghindari-share-foto-makanan.html</guid>
         
         
         <category>cerita</category>
@@ -105,7 +73,7 @@ muda yang tak kenal media sosial dengan konten foto dan video ini? Pergi jalan-j
 
 &lt;p&gt;Dalam sistem operasi keluarga microsoft (DOS, Windows) setiap partisi HDD dilambangkan dengan sebuah abjad dan diikuti dengan titik dua. misalkan &lt;code class=&quot;highlighter-rouge&quot;&gt;C:&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;D:&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;E:&lt;/code&gt;, dan seterusnya. Pada Linux dan sistem Unix-like lain sebuah partisi direpresentasikan dengan sebuah file dalam direktori &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/&lt;/code&gt;, misalnya &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda1&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda2&lt;/code&gt;, dan seterusnya. Untuk dapat mengakses partisi-partisi yang ada maka perlu dikaitkan ke sistem operasi terlebih dahulu. misalkan &lt;code class=&quot;highlighter-rouge&quot;&gt;sda2&lt;/code&gt; dikaitkan kedalam direktori &lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt/videos&lt;/code&gt; maka seluruh berkas yang ada di &lt;code class=&quot;highlighter-rouge&quot;&gt;sda2&lt;/code&gt; akan muncul dan dapat diakses di &lt;code class=&quot;highlighter-rouge&quot;&gt;/mnt/videos&lt;/code&gt;. lihat ilustrasi berikut.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/post/fs_mount.png&quot; alt=&quot;mount&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com//images/post/fs_mount.png&quot; alt=&quot;mount&quot; /&gt;
 &lt;em&gt;mengaitkan partisi&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;tabel-partisi&quot;&gt;Tabel Partisi&lt;/h2&gt;
@@ -117,18 +85,18 @@ muda yang tak kenal media sosial dengan konten foto dan video ini? Pergi jalan-j
 
 &lt;p&gt;Tabel partisi MBR memiliki &lt;a href=&quot;https://en.wikipedia.org/wiki/Master_boot_record&quot;&gt;boot sector&lt;/a&gt; yang terletak di bagian paling awal dari sebuah HDD, yang disebut sebagai MBR. MBR ini menampung informasi tentang bagaimana partisi-partisi yang ada diorganisir. Selain itu MBR juga berisi tentang dimana lokasi sistem operasi yang harus di-boot. Jenis tabel partisi ini banyak digunakan pada PC generasi lama. HDD yang diatur dengan tipe tabel ini hanya mampu menampung empat partisi primer, namun dapat dibuat lebih banyak partisi lagi dengan menggunakan partisi primer bertipe extended. Karena merupakan generasi lama, MBR hanya dapat diterapkan pada HDD dengan kapasitas maksimal 2&lt;a href=&quot;https://en.wikipedia.org/wiki/Tebibyte&quot;&gt;TiB&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/post/pembagian_partisi_mbr.png&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com//images/post/pembagian_partisi_mbr.png&quot; alt=&quot;&quot; /&gt;
 &lt;em&gt;ilustrasi pengalokasian HDD dengan tabel MBR&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Ketika bootloader sebuah sistem operasi dipasang maka akan secara otomatis mengubah informasi lokasi dimana bootloader tersebut dipasang. Misalkan sebuah PC dipasang sistem operasi linux di &lt;code class=&quot;highlighter-rouge&quot;&gt;sda1&lt;/code&gt;, maka MBR akan berisi informasi bahwa bootloader berada di &lt;code class=&quot;highlighter-rouge&quot;&gt;sda1&lt;/code&gt;. Ketika dipasang lagi sistem operasi windows di &lt;code class=&quot;highlighter-rouge&quot;&gt;sda2&lt;/code&gt; maka MBR juga akan berubah untuk menunjukkan lokasi bootloader berada di &lt;code class=&quot;highlighter-rouge&quot;&gt;sda2&lt;/code&gt;. Itulah mengapa sebaiknya untuk dual boot sistem operasi windows dengan Linux sangat disarankan untuk mengakhirkan Linux karena bootloader Linux mau mendeteksi bootloader windows, namun tidak sebaliknya.&lt;/p&gt;
 
 &lt;h3 id=&quot;2-guid-partition-table-gpt&quot;&gt;2. GUID Partition Table (GPT)&lt;/h3&gt;
 
-&lt;p&gt;GUID Partition Table atau GPT adalah tipe tabel partisi yang lebih modern dari MBR. GPT ini sering digunakan di PC generasi sekitar kemunculan windows 8 hingga sekarang. Berbeda dengan MBR, GPT mendukung HDD dengan kapasitas 8&lt;a href=&quot;https://en.wikipedia.org/wiki/Zebibyte&quot;&gt;ZiB&lt;/a&gt;. Selain itu GPT juga&lt;/p&gt;
+&lt;p&gt;GUID Partition Table atau GPT adalah tipe tabel partisi yang lebih modern dari MBR. GPT ini sering digunakan di PC generasi sekitar kemunculan windows 8 hingga sekarang. Berbeda dengan MBR, GPT mendukung HDD dengan kapasitas 8&lt;a href=&quot;https://en.wikipedia.org/wiki/Zebibyte&quot;&gt;ZiB&lt;/a&gt;. (Bersambung…)&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Aug 2017 00:18:00 +0700</pubDate>
-        <link>http://localhost:4000/2017/08/02/partisi-hdd.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/08/02/partisi-hdd.html</guid>
+        <link>http://nurulirfan.com/2017/08/02/partisi-hdd.html</link>
+        <guid isPermaLink="true">http://nurulirfan.com/2017/08/02/partisi-hdd.html</guid>
         
         
         <category>pengetahuan</category>
@@ -136,49 +104,15 @@ muda yang tak kenal media sosial dengan konten foto dan video ini? Pergi jalan-j
       </item>
     
       <item>
-        <title>Pemaketan source code menjadi paket deb</title>
-        <description>&lt;h1 id=&quot;paket-deb&quot;&gt;Paket deb&lt;/h1&gt;
-
-&lt;p&gt;Paket deb adalah sebuah paket yang digunakan debian (dan distro Linux turunannya) untuk memasang suatu aplikasi dengan mudah melalui manajer paket. Dengan ini pengguna tidak perlu meng-_compile_ aplikasi langsung dari source code.&lt;/p&gt;
-
-&lt;h1 id=&quot;pengenalan-pemaketan-debian&quot;&gt;Pengenalan pemaketan debian&lt;/h1&gt;
-
-&lt;p&gt;Dalam tulisan ini hanya akan dijelaskan cara pemaketan debian secara sederhana dengan menggunakan contoh &lt;em&gt;software&lt;/em&gt; yang mudah untuk dipaketkan. Untuk pemaketan aplikasi yang lebih rumit silakan bereksperimen setelah memahami tulisan ini dan mencari referensi di website lain.&lt;/p&gt;
-
-&lt;h1 id=&quot;kebutuhan&quot;&gt;Kebutuhan&lt;/h1&gt;
-
-&lt;p&gt;Dalam tulisan ini dibutuhkan beberapa &lt;em&gt;software&lt;/em&gt; yang perlu dipasang terlebih dahulu:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;build-essential&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;devscript&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;debhelper&lt;/code&gt; versi 9 atau lebih baru.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;pasang ketiganya dengan sembarang metode&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~$ sudo apt install build-essential devscript debhelper
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 21 Jun 2017 04:26:00 +0700</pubDate>
-        <link>http://localhost:4000/2017/06/21/pemaketan-source-code-menjadi-deb.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/06/21/pemaketan-source-code-menjadi-deb.html</guid>
-        
-        
-        <category>packaging</category>
-        
-      </item>
-    
-      <item>
         <title>3 Bagian Tema Di Linux Yang Perlu Diketahui</title>
         <description>&lt;p&gt;Tema atau Theme, kata ini sudah tak asing tentunya di telinga kita. Sudah banyak sekali di internet yang menyediakan tema untuk Linux, misalnya &lt;a href=&quot;http://gnome-look.org/&quot;&gt;GNOME-look&lt;/a&gt;, &lt;a href=&quot;http://kde-look.org/&quot;&gt;KDE-look&lt;/a&gt;, &lt;a href=&quot;http://noobslab.com/&quot;&gt;Noobslab&lt;/a&gt; dan &lt;a href=&quot;http://webupd8.org/&quot;&gt;Webupd8&lt;/a&gt;. Disana ada banyak sekali tema-tema yang tersedia.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/post/tiga-bagian-tema/gnome-look.png&quot; alt=&quot;mount&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com/images/post/tiga-bagian-tema/gnome-look.png&quot; alt=&quot;mount&quot; /&gt;
 &lt;em&gt;Tampilan gnome-look.org&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Mengapa KDE dan GNOME memiliki tema yang berbeda? apa yang membedakan keduanya? Sebelumnya mari kita lihat sekilas gambar berikut&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/post/tiga-bagian-tema/pembagian-tema.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com/images/post/tiga-bagian-tema/pembagian-tema.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pada dasarnya tema di Linux dibagi menjadi 3 bagian:&lt;/p&gt;
 
@@ -196,7 +130,7 @@ muda yang tak kenal media sosial dengan konten foto dan video ini? Pergi jalan-j
 &lt;hr /&gt;
 &lt;p&gt;Hal ini juga yang membuat kami (Tim Software Riset TeaLinuxOS)  membagi tema dalam software “Theme Switcher Tray” menjadi tiga juga.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/post/tiga-bagian-tema/theme-tray.png&quot; alt=&quot;mount&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://nurulirfan.com/images/post/tiga-bagian-tema/theme-tray.png&quot; alt=&quot;mount&quot; /&gt;
 &lt;em&gt;Tampilan pengaturan untuk Theme Switcher Tray&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: Jika Tema yang didownload tidak bekerja dengan salah salah satu dari tiga komponen diatas, cek apakah ada di dalam folder &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/themes/nama_tema&lt;/code&gt; untuk tema WM dan Widget, dan di &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/share/icons/nama_icon&lt;/code&gt; untuk tema icon.&lt;/p&gt;
@@ -219,8 +153,8 @@ muda yang tak kenal media sosial dengan konten foto dan video ini? Pergi jalan-j
 &lt;p&gt;&lt;em&gt;(Tulisan ini dipindah dari &lt;a href=&quot;http://blog.nurulirfan.com&quot;&gt;blog lama&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Mar 2016 11:22:00 +0700</pubDate>
-        <link>http://localhost:4000/2016/03/03/bagian-tema-linux.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/03/03/bagian-tema-linux.html</guid>
+        <link>http://nurulirfan.com/2016/03/03/bagian-tema-linux.html</link>
+        <guid isPermaLink="true">http://nurulirfan.com/2016/03/03/bagian-tema-linux.html</guid>
         
         
         <category>Linux</category>

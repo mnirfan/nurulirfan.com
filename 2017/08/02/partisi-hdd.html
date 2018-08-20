@@ -11,8 +11,8 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i|Roboto Mono" rel="stylesheet">
-  <link rel="canonical" href="http://localhost:4000/2017/08/02/partisi-hdd.html">
-  <link rel="alternate" type="application/rss+xml" title="Nurul Irfan Blog" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="http://nurulirfan.com/2017/08/02/partisi-hdd.html">
+  <link rel="alternate" type="application/rss+xml" title="Nurul Irfan Blog" href="http://nurulirfan.com/feed.xml" />
 </head>
 
 
@@ -31,8 +31,6 @@
       
         
         <a class="page-link" href="/category/">Categories</a>
-        
-      
         
       
         
@@ -76,7 +74,7 @@
 
 <p>Dalam sistem operasi keluarga microsoft (DOS, Windows) setiap partisi HDD dilambangkan dengan sebuah abjad dan diikuti dengan titik dua. misalkan <code class="highlighter-rouge">C:</code>, <code class="highlighter-rouge">D:</code>, <code class="highlighter-rouge">E:</code>, dan seterusnya. Pada Linux dan sistem Unix-like lain sebuah partisi direpresentasikan dengan sebuah file dalam direktori <code class="highlighter-rouge">/dev/</code>, misalnya <code class="highlighter-rouge">/dev/sda1</code>, <code class="highlighter-rouge">/dev/sda2</code>, dan seterusnya. Untuk dapat mengakses partisi-partisi yang ada maka perlu dikaitkan ke sistem operasi terlebih dahulu. misalkan <code class="highlighter-rouge">sda2</code> dikaitkan kedalam direktori <code class="highlighter-rouge">/mnt/videos</code> maka seluruh berkas yang ada di <code class="highlighter-rouge">sda2</code> akan muncul dan dapat diakses di <code class="highlighter-rouge">/mnt/videos</code>. lihat ilustrasi berikut.</p>
 
-<p><img src="http://localhost:4000//images/post/fs_mount.png" alt="mount" />
+<p><img src="http://nurulirfan.com//images/post/fs_mount.png" alt="mount" />
 <em>mengaitkan partisi</em></p>
 
 <h2 id="tabel-partisi">Tabel Partisi</h2>
@@ -88,14 +86,14 @@
 
 <p>Tabel partisi MBR memiliki <a href="https://en.wikipedia.org/wiki/Master_boot_record">boot sector</a> yang terletak di bagian paling awal dari sebuah HDD, yang disebut sebagai MBR. MBR ini menampung informasi tentang bagaimana partisi-partisi yang ada diorganisir. Selain itu MBR juga berisi tentang dimana lokasi sistem operasi yang harus di-boot. Jenis tabel partisi ini banyak digunakan pada PC generasi lama. HDD yang diatur dengan tipe tabel ini hanya mampu menampung empat partisi primer, namun dapat dibuat lebih banyak partisi lagi dengan menggunakan partisi primer bertipe extended. Karena merupakan generasi lama, MBR hanya dapat diterapkan pada HDD dengan kapasitas maksimal 2<a href="https://en.wikipedia.org/wiki/Tebibyte">TiB</a>.</p>
 
-<p><img src="http://localhost:4000//images/post/pembagian_partisi_mbr.png" alt="" />
+<p><img src="http://nurulirfan.com//images/post/pembagian_partisi_mbr.png" alt="" />
 <em>ilustrasi pengalokasian HDD dengan tabel MBR</em></p>
 
 <p>Ketika bootloader sebuah sistem operasi dipasang maka akan secara otomatis mengubah informasi lokasi dimana bootloader tersebut dipasang. Misalkan sebuah PC dipasang sistem operasi linux di <code class="highlighter-rouge">sda1</code>, maka MBR akan berisi informasi bahwa bootloader berada di <code class="highlighter-rouge">sda1</code>. Ketika dipasang lagi sistem operasi windows di <code class="highlighter-rouge">sda2</code> maka MBR juga akan berubah untuk menunjukkan lokasi bootloader berada di <code class="highlighter-rouge">sda2</code>. Itulah mengapa sebaiknya untuk dual boot sistem operasi windows dengan Linux sangat disarankan untuk mengakhirkan Linux karena bootloader Linux mau mendeteksi bootloader windows, namun tidak sebaliknya.</p>
 
 <h3 id="2-guid-partition-table-gpt">2. GUID Partition Table (GPT)</h3>
 
-<p>GUID Partition Table atau GPT adalah tipe tabel partisi yang lebih modern dari MBR. GPT ini sering digunakan di PC generasi sekitar kemunculan windows 8 hingga sekarang. Berbeda dengan MBR, GPT mendukung HDD dengan kapasitas 8<a href="https://en.wikipedia.org/wiki/Zebibyte">ZiB</a>. Selain itu GPT juga</p>
+<p>GUID Partition Table atau GPT adalah tipe tabel partisi yang lebih modern dari MBR. GPT ini sering digunakan di PC generasi sekitar kemunculan windows 8 hingga sekarang. Berbeda dengan MBR, GPT mendukung HDD dengan kapasitas 8<a href="https://en.wikipedia.org/wiki/Zebibyte">ZiB</a>. (Bersambung…)</p>
 
   </article>
   
@@ -141,13 +139,11 @@
     
       <li><a class="post-link" href="/2018/08/20/hijrah-migrasi-moveon.html">Hijrah, Migrasi, dan Move On</a></li>
     
-      <li><a class="post-link" href="/2018/03/30/ceritaku-tentang-loci-2018.html">Ceritaku Tentang Konferensi LibreOffice Indonesia 2018</a></li>
-    
       <li><a class="post-link" href="/2018/02/15/saya-menghindari-share-foto-makanan.html">Menghindari Sharing Foto Makanan di Medsos. Mengapa?</a></li>
     
       <li><a class="post-link" href="/2017/08/02/partisi-hdd.html">Partisi pada Hard Disk Drive</a></li>
     
-      <li><a class="post-link" href="/2017/06/21/pemaketan-source-code-menjadi-deb.html">Pemaketan source code menjadi paket deb</a></li>
+      <li><a class="post-link" href="/2016/03/03/bagian-tema-linux.html">3 Bagian Tema Di Linux Yang Perlu Diketahui</a></li>
     
   </ul>
 </div>
