@@ -5,6 +5,7 @@ date:   2018-08-20 22:41
 categories: 
   - pemikiran pribadi
 permalink: /:year/:month/:day/hijrah-migrasi-moveon:output_ext
+published: true
 ---
 
 Hijrah, migrasi, dan *move on*. Tiga istilah ini sering digunakan di kehidupan sehari-hari dalam "dunia" yang berbeda satu sama lain. Jadi, wajar bila kita tak mengetahui kepopuleran salah satu dari istilah tersebut. Namun, saya sangat yakin tak ada yang tidak familiar dengan istilah ketiga. karena kita semua pasti memiliki gebetan atau mantan yang... Ah, sudahlah. Yang jelas ada kesamaan antar istilah tersebut.
