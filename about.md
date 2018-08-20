@@ -1,6 +1,6 @@
 ---
 layout: page
-title: navs.about
+title: About me
 permalink: /about/
 public: true
 nocomments: true
