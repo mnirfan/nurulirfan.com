@@ -48,7 +48,7 @@
 
     
     ,{
-        "title": "navs.about",
+        "title": "About me",
         "content": "Welcome to this website!\n\n\n  This website is using laobubu’s theme: EasyBook\n\n\n",
         "link": "/en/about/",
         "date": null,
@@ -60,8 +60,8 @@
 
     
     ,{
-        "title": "navs.category",
-        "content": "\n  Category\n\n  \n\n\n\n\n\nJekyll\n\n\nJan 01 » My Jekyll-powered site has created\n\n\n\n\n  \n\n\n",
+        "title": "Categories",
+        "content": "\n  \n\n  \n\n\n\n\n\nJekyll\n\n\nJan 01 » My Jekyll-powered site has created\n\n\n\n\n  \n\n\n",
         "link": "/en/category/",
         "date": null,
         "excerpt": null,

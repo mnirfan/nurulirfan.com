@@ -72,7 +72,7 @@
 
     
     ,{
-        "title": "navs.about",
+        "title": "About me",
         "content": "Saya adalah seorang pegiat FOSS (Free and Open Source Software).\n\n",
         "link": "/about/",
         "date": null,
@@ -84,8 +84,8 @@
 
     
     ,{
-        "title": "navs.category",
-        "content": "\n  Kategori\n\n  \n\n\n\n\n\nIcon\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nLinux\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nTheme\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nCerita\n\n\nFeb 15 » Menghindari Sharing Foto Makanan di Medsos. Mengapa?\n\n\n\n\nPemikiran pribadi\n\n\nFeb 15 » Menghindari Sharing Foto Makanan di Medsos. Mengapa?\n\n\n\n\nPengetahuan\n\n\nAug 02 » Partisi pada Hard Disk Drive\n\n\n\n\n  \n\n\n",
+        "title": "Categories",
+        "content": "\n  \n\n  \n\n\n\n\n\nIcon\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nLinux\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nTheme\n\n\nMar 03 » 3 Bagian Tema Di Linux Yang Perlu Diketahui\n\n\n\n\nCerita\n\n\nFeb 15 » Menghindari Sharing Foto Makanan di Medsos. Mengapa?\n\n\n\n\nPemikiran pribadi\n\n\nFeb 15 » Menghindari Sharing Foto Makanan di Medsos. Mengapa?\n\n\n\n\nPengetahuan\n\n\nAug 02 » Partisi pada Hard Disk Drive\n\n\n\n\n  \n\n\n",
         "link": "/category/",
         "date": null,
         "excerpt": null,
